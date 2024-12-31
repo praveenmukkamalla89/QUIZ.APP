@@ -184,7 +184,7 @@ function showResult() {
     questionEl.style.display = "none";
     optionsEl.style.display = "none";
     submitBtn.style.display = "none";
-    resultEl.textContent = `You scored ${score} out of ${quizData.length}!;`
+    resultEl.textContent = `You scored ${score} out of ${quizData.length}!`;
 }
 
 // Initialize the Quiz
